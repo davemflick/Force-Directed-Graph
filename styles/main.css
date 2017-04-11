@@ -1,0 +1,32 @@
+*{box-sizing: border-box;}
+
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.graphContainer {
+	position: relative;
+	margin:40px auto;
+	background-color: #eee;
+}
+
+.svg{
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	background-color: #ddd;
+}
+
+.node {
+	fill: blue;
+	stroke: green;
+	stroke-width: 2px;
+}
+
+.link {
+	stroke: red;
+	stroke-width: 2px;
+}
