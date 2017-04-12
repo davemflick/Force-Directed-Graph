@@ -5,28 +5,56 @@ html, body {
 	height: 100%;
 	margin: 0;
 	padding: 0;
+	text-align: center;
+	background-color: #F0DAA1;
+}
+
+h1 {
+	font-family: monospace;
+	margin: 5px;
+	color: #04A0A5;
+}
+p{
+	margin: 2px;
+	color: #04A0A5;
 }
 
 .graphContainer {
 	position: relative;
-	margin:40px auto;
-	background-color: #eee;
+	margin:20px auto;
+	background-color: #FCD29F;
 }
 
 .svg{
 	position: absolute;
 	top: 50px;
 	left: 50px;
-	background-color: #ddd;
+	background-color: #FBEFE0;
 }
 
-.node {
-	fill: blue;
-	stroke: green;
-	stroke-width: 2px;
+.flagB {
+	position: absolute;
+	display: block;
+	left:0;
+	top: 0;
 }
 
-.link {
-	stroke: red;
-	stroke-width: 2px;
+img {
+	position: absolute;
+}
+
+.links {
+	stroke: black;
+	stroke-width: 1px;
+}
+
+.tooltip {
+	visibility: hidden;
+	position: absolute;
+	text-align: center;
+	z-index: 100;
+	height: 30px;
+	padding: 5px;
+	background-color: black;
+	color: white;
 }
