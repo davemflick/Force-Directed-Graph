@@ -6,30 +6,30 @@ html, body {
 	margin: 0;
 	padding: 0;
 	text-align: center;
-	background-color: #F0DAA1;
+	background-color: #2C5D5F;
 }
 
 h1 {
 	font-family: monospace;
 	margin: 5px;
-	color: #04A0A5;
+	color: white;
 }
 p{
 	margin: 2px;
-	color: #04A0A5;
+	color: white;
 }
 
 .graphContainer {
 	position: relative;
 	margin:20px auto;
-	background-color: #FCD29F;
+	background-color: #7B7E7E;
 }
 
 .svg{
 	position: absolute;
 	top: 50px;
 	left: 50px;
-	background-color: #FBEFE0;
+	background-color: #E5FAFA;
 }
 
 .flagB {
