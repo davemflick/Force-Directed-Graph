@@ -60,7 +60,7 @@ d3.json(URL, (error, data)=>{
 // Add event functions for tooltip hovering
 	node.on("mouseover", (d, i)=> {div.style("visibility", "visible")
 												.style("top", (event.pageY - p)+"px")
-												.style("left",(event.pageX - p)+"px")
+												.style("left",(event.pageX - (p*3))+"px")
 												.html(d.country)})
 		.on("mouseout", (d, i)=> {div.style("visibility", "hidden")})
 
