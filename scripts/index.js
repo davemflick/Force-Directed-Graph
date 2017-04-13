@@ -1,6 +1,6 @@
 
-const w = 900;
-const h = 700;
+const w = 1000;
+const h = 800;
 const p = 50;
 
 //select main div
@@ -72,10 +72,12 @@ d3.json(URL, (error, data)=>{
   	sim.force("link")
       .links(links)
       .distance(10)
+
+
 //Define node and link X Y coordinates
 	function tickChange() {
-		node.style("left", (d)=> d.x + p +'px')
-	        .style("top", (d)=> d.y + p + 'px');
+		node.style("left", (d)=> d.x + 'px' )
+	        .style("top", (d)=> d.y + 'px');
 	    link.attr("x1", (d)=> d.source.x + 5)
 	        .attr("y1", (d)=> d.source.y + 5)
 	        .attr("x2", (d)=> d.target.x + 5)

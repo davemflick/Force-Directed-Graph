@@ -27,8 +27,8 @@ p{
 
 .svg{
 	position: absolute;
-	top: 50px;
-	left: 50px;
+	top: 0;
+	left: 0;
 	background-color: #E5FAFA;
 }
 
