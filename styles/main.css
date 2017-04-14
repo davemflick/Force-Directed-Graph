@@ -18,6 +18,8 @@ p{
 	margin: 2px;
 	color: white;
 }
+a { color: white}
+a:hover {color: #ccc}
 
 .graphContainer {
 	position: relative;
